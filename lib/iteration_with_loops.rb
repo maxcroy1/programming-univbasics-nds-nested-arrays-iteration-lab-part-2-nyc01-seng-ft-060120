@@ -11,5 +11,5 @@ def find_min_in_nested_arrays(src)
     end
     low_temps << lowest_temp
   end
-  
+  low_temps
 end
