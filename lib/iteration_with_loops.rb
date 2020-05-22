@@ -5,5 +5,6 @@ def find_min_in_nested_arrays(src)
   for i in 0...(src.length)
     for y in 1...(src[i].length)
       lowest_temp = src[i][0]
-      if 
+      if src[i][y] < lowest_temp
+        lowest_temp = src[i][y]
 end
